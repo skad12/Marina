@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 const galleryData = {
   galleryImage: [
@@ -20,7 +21,7 @@ const Gallery = () => {
             {galleryImage.map((item, index) => (
               <div key={index} className="col-sm-3 sm-mb-10">
                 <div className="gallery__area-item">
-                  <img className="w-100" src={item.image} alt="image" />
+                  <Image className="w-100" src={item.image} alt="image" width={1000} height={1000}/>
                 </div>
               </div>
             ))}

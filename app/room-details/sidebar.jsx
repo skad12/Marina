@@ -9,8 +9,8 @@ const Sidebar = () => {
                             <h5>Your Price</h5>
                             <div className="all__sidebar-item-price">
                                 <ul>
-                                    <li><i className="fal fa-bed-alt"></i>(3) bed's</li>
-                                    <li><i className="fal fa-users"></i>(6) Guest's</li>
+                                    <li><i className="fal fa-bed-alt"></i>(3) bed&apos;s</li>
+                                    <li><i className="fal fa-users"></i>(6) Guest&apos;s</li>
                                 </ul>
                                 <h4>$219<span>/Night</span></h4>
                                 <a className="theme-btn" href="/contact">Book Now<i className="fal fa-long-arrow-right"></i></a>

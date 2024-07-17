@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../footer/footer';
 
 import HeaderTwo from '../header/headerTwo';
+import Image from 'next/image';
 
 import BreadCrumb from '../breadcrumb/breadcrumb';
 import Link from 'next/link';
@@ -21,7 +22,7 @@ const NotFound = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="error-page t-center">
-                                    <img src="/404.svg" alt="error" />
+                                    <Image src="/404.svg" alt="error" width={1000} height={1000} />
                                     <div>
                                         <Link class="theme-btn mt-50" href="/">Back to Home</Link>
                                     </div>
