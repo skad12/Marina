@@ -11,7 +11,7 @@ const footerOne = {
     ],
     title_3: 'Gallery',
     title_4: 'Office Info',
-    office_des: '1234 Lake Tahoe Blvd, South Lake Tahoe , California USA',
+    office_des: 'Sokoto, Nigeria',
     officeInfos: [
         {link:'https://www.google.com/maps',info:'Sokoto, Nigeria',icon: <i className="fal fa-map-marked-alt"></i>},
         {link:'mailto:info.help@gmail.com',info:'info.help@gmail.com',icon: <i className="fal fal fa-envelope-open-text"></i>},

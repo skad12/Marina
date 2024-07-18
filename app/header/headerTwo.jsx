@@ -28,7 +28,7 @@ const HeaderTwo = ({variant}) => {
             <div className="header__area-top-bar">
                 <div className="header__area-top-bar-left">
                     <div className="header__area-top-bar-left-info">
-                        <span><Link href="https://www.google.com/maps"><i className="fal fa-map-marker-alt"></i>869W+P49 Yellow House, Pennsylvania</Link></span>
+                        <span><Link href="https://www.google.com/maps"><i className="fal fa-map-marker-alt"></i>869W+P49 Sokoto, Nigeria.</Link></span>
                     </div>
                 </div> 
                 <div className="header__area-top-bar-right">
