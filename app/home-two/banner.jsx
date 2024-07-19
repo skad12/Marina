@@ -41,7 +41,7 @@ const Banner = () => {
           </div>
           <div className="col-xl-5 col-lg-5 lg-mb-60">
             <div className="banner__three-right">
-              <img className="img__full" src="/img/banner-6.jpg" alt="" />
+              <img className="img__full" src="/img/banner-1.jpg" alt="" />
             </div>
           </div>
         </div>

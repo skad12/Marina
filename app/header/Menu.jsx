@@ -12,7 +12,7 @@ export const Page = () => (
         <li><Link href="/about">About</Link></li>
         <li><Link href="/team">Team</Link></li>
         <li><Link href="/services-details">Services Details</Link></li>
-        <li><Link href="/404-error">404 Page</Link></li>
+        {/* <li><Link href="/404-error">404 Page</Link></li> */}
     </Fragment>
 );
 export const Room = () => (
@@ -25,8 +25,8 @@ export const Room = () => (
 );
 export const Blog = () => (
     <Fragment>
-        <li><Link href="/blog-grid">Blog Grid</Link></li>
+        {/* <li><Link href="/blog-grid">Blog Grid</Link></li>
         <li><Link href="/blog-standard">Blog Standard</Link></li>
-        <li><Link href="/blog-details/1">Blog Details</Link></li>
+        <li><Link href="/blog-details/1">Blog Details</Link></li> */}
     </Fragment>
 );

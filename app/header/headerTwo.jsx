@@ -69,13 +69,7 @@ const HeaderTwo = ({variant}) => {
                                         </ul>
                                     </DropDown>
 								</li>
-								<li className="menu-item-has-children"><a href="#">Blog</a>
-                                    <DropDown>
-                                        <ul className="sub-menu">
-                                        <Blog />
-                                        </ul>
-                                    </DropDown>
-								</li>
+								<li><Link href="/about">About Us</Link></li>
 								<li><Link href="/contact">Contact</Link></li>
 							</ul>
                     </div>
