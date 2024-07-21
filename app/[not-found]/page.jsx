@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../footer/footer';
 
-import HeaderTwo from '../header/headerTwo';
+import HeaderOne from '../header/HeaderOne';
 import Image from 'next/image';
 
 import BreadCrumb from '../breadcrumb/breadcrumb';
@@ -13,7 +13,7 @@ const NotFound = () => {
         <>
             <SEO pageTitle='Not Found' />
 
-                <HeaderTwo />
+                <HeaderOne />
 
              
                 <BreadCrumb title="Not Found" innerTitle="404 Page" bgImage="/img/banner/page-banner-1.jpg" />

@@ -1,7 +1,7 @@
 "use client"
 import SEO from "@/components/seo";
 import FooterTwo from "../footer/footerTwo";
-import HeaderTwo from "../header/headerTwo";
+import HeaderOne from "../header/HeaderOne";
 import ScrollToTopButton from "../scroll-to-top/scrollToTop";
 import Banner from "./banner";
 import Blog from "./blog";
@@ -16,7 +16,7 @@ const Home2 = () => {
   return (
     <>
       <SEO pageTitle="Home Two" />
-        <HeaderTwo />
+        <HeaderOne />
         <Banner />
         <Companyarea />
         <Callarea />

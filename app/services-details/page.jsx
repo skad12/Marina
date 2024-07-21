@@ -10,7 +10,7 @@ import SEO from "@/components/seo";
 const Servicedetails = () => {
   return (
     <>
-      <SEO pageTitle="Services Details" />
+      <SEO pageTitle="Service Details" />
         <HeaderOne />
         <BreadCrumb title="Services Details" innerTitle="Services Details" bgImage="/img/banner/page-banner-1.jpg"/>
         <ServicesDetails />

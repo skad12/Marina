@@ -48,7 +48,7 @@ const HeaderTwo = ({variant}) => {
                 <div className="header__area-menubar-right three">
                     <div className="header__area-menubar-right-menu three menu-responsive">
                             <ul className="mobile__menu" style={{ display: `${mobileToggle ? "block" : "none"}` }}>
-								<li className="menu-item-has-children"><a href="/">Home</a>
+								<li ><a href="/">Home</a>
                                     {/* <DropDown>
                                         <ul className="sub-menu">
                                         <Home />
@@ -69,6 +69,8 @@ const HeaderTwo = ({variant}) => {
                                         </ul>
                                     </DropDown>
 								</li>
+                                <li><Link href="/team">Team</Link></li>
+
 								<li><Link href="/about">About Us</Link></li>
 								<li><Link href="/contact">Contact</Link></li>
 							</ul>

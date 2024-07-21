@@ -32,30 +32,34 @@ export default function HeaderOne({ variant }) {
 					<div className="header__area-menubar-right">
 						<div className="header__area-menubar-right-menu menu-responsive">
                             <ul className="mobile__menu" style={{ display: `${mobileToggle ? "block" : "none"}` }}>
-								<li className="menu-item-has-children"><a href="#">Home</a>
-                                    <DropDown />
+								<li className=""><a href="/">Home</a>
+                                    {/* <DropDown />
                                     <ul className="sub-menu">
                                         <Home />
-                                    </ul>                                    
+                                    </ul>                                     */}
 								</li>
-								<li className="menu-item-has-children"><a href="#">Pages</a>
-                                    <DropDown />
+								<li className=""><a href="/services-details">Services</a>
+                                    {/* <DropDown />
                                     <ul className="sub-menu">
                                         <Page />
-                                    </ul>                                    
+                                    </ul>                                     */}
 								</li>
-								<li className="menu-item-has-children"><a href="#">Room</a>
+								<li className="menu-item-has-children"><a href="#">Rooms</a>
                                     <DropDown />
                                     <ul className="sub-menu">
                                         <Room />
                                     </ul>                                    
 								</li>
-								<li className="menu-item-has-children"><a href="#">Blog</a>
+								{/* <li className="menu-item-has-children"><a href="#">Blog</a>
                                     <DropDown />
                                     <ul className="sub-menu">
                                         <Blog />
                                     </ul>                                    
-								</li>
+								</li> */}
+                                <li><Link href="/team">Team</Link></li>
+
+                                <li><Link href="/about">About Us</Link></li>
+
 								<li><Link href="/contact">Contact</Link></li>
 							</ul>
 						</div>
