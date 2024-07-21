@@ -1,6 +1,6 @@
 import BreadCrumb from "../breadcrumb/breadcrumb";
 import Footer from "../footer/footer";
-import HeaderOne from "../Header/HeaderOne";
+import HeaderOne from "../header/HeaderOne";
 import ScrollToTopButton from "../scroll-to-top/scrollToTop";
 import Servicesteam from "./servicesteam";
 import SEO from "@/components/seo";
