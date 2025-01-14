@@ -25,16 +25,18 @@ const Roomlistblogs = () => {
                     <p>{item.des}</p>
                     <ul>
                       <li>
-                        <i className="fal fa-bed-alt"></i>({item.bed}) bed&apos;s
+                        <i className="fal fa-bed-alt"></i>({item.bed})
+                        bed&apos;s
                       </li>
                       <li>
-                        <i className="fal fa-users"></i>({item.guest}) Guest&apos;s
+                        <i className="fal fa-users"></i>({item.guest})
+                        Guest&apos;s
                       </li>
                     </ul>
                   </div>
                   <div className="room__list-item-right-meta">
                     <div className="room__list-item-right-meta-top">
-                      <span>${item.price}/Night</span>
+                      <span>₦{item.price}/Night</span>
                       <p>
                         <i className="fas fa-star"></i>
                         <span>{item.star}</span>2k

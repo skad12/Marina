@@ -66,7 +66,7 @@ export default function HeaderOne({ variant }) {
 					</div>
 					<div className="header__area-menubar-right-box">
 						<div className="header__area-menubar-right-box-btn">
-							<Link className="theme-btn" href="/contact">Book Now<i className="fal fa-long-arrow-right"></i></Link>
+							<Link className="theme-btn" href="/contact">Login<i className="fal fa-long-arrow-right"></i></Link>
 						</div>
 					</div>
                 </div>

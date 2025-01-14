@@ -55,7 +55,7 @@ const Contactcontainer = () => {
             </div>
             <div className="col-xl-7 col-lg-7">
               <div className="contact__area-form">
-                <h3 className="mb-35">Send Massage</h3>
+                <h3 className="mb-35">Send Message</h3>
                 <form action="#">
                   <div className="row">
                     <div className="col-sm-6 mb-30">
