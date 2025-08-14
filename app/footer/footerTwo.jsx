@@ -98,7 +98,10 @@ const FooterTwo = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="copyright__two-title">
-                  <p>Copyright © 2024<a href="#">Reserved</a> Website by<Link href="/"> Blumentech</Link></p>
+                  <p>
+                    Copyright © 2024<a href="#">Reserved</a> Website by
+                    <Link href="/"> Blumentech</Link>
+                  </p>
                 </div>
               </div>
             </div>

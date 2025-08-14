@@ -2,13 +2,13 @@ const Booking = () => {
   return (
     <div
       className="booking__two section-padding"
-      style={{backgroundImage: `url('/img/bg/booking-bg.jpg')`}}
+      style={{ backgroundImage: `url('/img/bg/booking-bg.jpg')` }}
     >
       <div className="container">
         <div className="row mb-60">
           <div className="col-xl-12">
             <div className="booking__two-title">
-              <span className="subtitle__one">Booking Aria</span>
+              <span className="subtitle__one">Booking Area</span>
               <h2>Find the best hotels in Your area</h2>
             </div>
           </div>
@@ -52,8 +52,8 @@ const Booking = () => {
         </div>
         <div className="row mt-100">
           <div className="col-xl-4 col-lg-6">
-            <div className="room__area-title">
-              <span className="subtitle__one">Our Features</span>
+            <div className="room__area-title text-white">
+              <span className="subtitle__one text-white">Our Features</span>
               <h2>Single Room</h2>
               <p>
                 Phasellus semper vehicula eros, non ultricies neque rhoncus sed.
@@ -85,7 +85,7 @@ const Booking = () => {
                 </div>
                 <div className="room__area-list-item-content">
                   <h5>Smart Key</h5>
-                  <p>
+                  <p className="text-white">
                     Phasellus semper vehicula eros, non ultricies neque rhoncus
                     sed
                   </p>
@@ -97,19 +97,19 @@ const Booking = () => {
                 </div>
                 <div className="room__area-list-item-content">
                   <h5>Breakfast</h5>
-                  <p>
+                  <p className="text-white">
                     Phasellus semper vehicula eros, non ultricies neque rhoncus
                     sed
                   </p>
                 </div>
               </div>
               <div className="room__area-list-item">
-                <div className="room__area-list-item-icon">
+                <div className="room__area-list-item-icon text-white">
                   <img src="/img/icon/wifi-1.png" alt="" />
                 </div>
                 <div className="room__area-list-item-content">
                   <h5>Home Wifi</h5>
-                  <p>
+                  <p className="text-white">
                     Phasellus semper vehicula eros, non ultricies neque rhoncus
                     sed
                   </p>

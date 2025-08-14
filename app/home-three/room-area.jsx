@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Roomarea = () => {
   return (
     <div className="room__area section-padding">
@@ -26,14 +28,14 @@ const Roomarea = () => {
           </div>
           <div className="col-xl-4 order-last order-lg-second">
             <div className="room__area-image">
-              <img src="/img/hotel/hotel-5.jpg" alt="" />
+              <Image src="/img/hotel/hotel-5.jpg" alt="Single Room" width={900} height={600} />
             </div>
           </div>
           <div className="col-xl-4 col-lg-6 xl-mb-30">
             <div className="room__area-list">
               <div className="room__area-list-item">
                 <div className="room__area-list-item-icon">
-                  <img src="/img/icon/key.png" alt="" />
+                  <Image src="/img/icon/key.png" alt="Smart Key" width={48} height={48} />
                 </div>
                 <div className="room__area-list-item-content">
                   <h5>Smart Key</h5>
@@ -43,10 +45,10 @@ const Roomarea = () => {
                   </p>
                 </div>
               </div>
-              <div className="room__area-list-item">
-                <div className="room__area-list-item-icon">
-                  <img src="/img/icon/breakfast.png" alt="" />
-                </div>
+                <div className="room__area-list-item">
+                  <div className="room__area-list-item-icon">
+                    <Image src="/img/icon/breakfast.png" alt="Breakfast" width={48} height={48} />
+                  </div>
                 <div className="room__area-list-item-content">
                   <h5>Breakfast</h5>
                   <p>
@@ -55,10 +57,10 @@ const Roomarea = () => {
                   </p>
                 </div>
               </div>
-              <div className="room__area-list-item">
-                <div className="room__area-list-item-icon">
-                  <img src="/img/icon/wifi-1.png" alt="" />
-                </div>
+                <div className="room__area-list-item">
+                  <div className="room__area-list-item-icon">
+                    <Image src="/img/icon/wifi-1.png" alt="Home Wifi" width={48} height={48} />
+                  </div>
                 <div className="room__area-list-item-content">
                   <h5>Home Wifi</h5>
                   <p>

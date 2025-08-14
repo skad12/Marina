@@ -1,11 +1,28 @@
 "use client";
 
 import Link from "next/link";
-import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
 
 const Banner = () => {
   const [isOpen, setOpen] = useState(false);
+
+  const bannerImages = [
+    "/img/banner-custom-1.jpg",
+    "/img/banner-custom-2.jpg",
+    "/img/banner-custom-3.jpg",
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % bannerImages.length);
+    }, 5000);
+
+    return () => clearInterval(intervalId);
+  }, [bannerImages.length]);
+
   return (
     <div
       className="banner__three"
@@ -22,26 +39,18 @@ const Banner = () => {
               <Link className="theme-btn" href="/about">
                 Read More<i className="fal fa-long-arrow-right"></i>
               </Link>
-              {/* <div className="banner__three-title-video">
-                <div className="video__play">
-                  <React.Fragment>
-                    <ModalVideo
-                      channel="youtube"
-                      isOpen={isOpen}
-                      videoId="SZEflIVnhH8"
-                      onClose={() => setOpen(false)}
-                    />
-                    <span onClick={() => setOpen(true)}>
-                      <i className="fas fa-play"></i>
-                    </span>
-                  </React.Fragment>
-                </div>
-              </div> */}
             </div>
           </div>
           <div className="col-xl-5 col-lg-5 lg-mb-60">
             <div className="banner__three-right">
-              <img className="img__full" src="/img/banner-1.jpg" alt="" />
+              <Image
+                className="img__full"
+                src={bannerImages[currentIndex]}
+                alt="Featured hotel"
+                width={900}
+                height={600}
+                priority
+              />
             </div>
           </div>
         </div>
